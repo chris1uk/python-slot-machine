@@ -18,7 +18,7 @@ background = pygame.image.load('./graphics/background.png').convert()
 font=pygame.font.Font("./graphics/segment.ttf",30)
 screen.blit(background, (0, 0)) 
 pygame.display.flip()
-clock = pygame.time.Clock() # Create a clock object
+clock = pygame.time.Clock()
 FPS = 60
 
 class Sounds () :
